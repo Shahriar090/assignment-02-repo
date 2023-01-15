@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.nav-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+
+
+    
+
+}
+.items{
+    display: flex;
+    list-style: none;
+   
+    
+
+}
+.item{
+    font-size: 20px;
+    font-weight: 500px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.section-details{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.btn{
+    height: 40px;
+    
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: white;
+}
+.section-pg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-image{
+   height: 100%;
+   width: 100%;
+   margin-left: 30px;
+}
+.features{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+.feature-btn{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    background-color: darkorange;
+    color: white;
+}
+.feature-images{
+    display: flex;
+    width: 50px;
+    gap: 5px;
+    padding: 5px;
+}
+.grid-container{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+.more-images{
+    display: flex;
+    gap: 10px;
+}
+.features-container{
+    display: flex;
+    margin-top: 20px;
+
+}
+.section-button{
+    background-color: orangered;
+    padding: 20px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: -20px;
+}
+.icons{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-between
+}
+.facts{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 700px;
+}
+.sponsors{
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    
+}
+.sponsor-title{
+    font-weight: 700;
+    margin: 10px ;
+}
+.sponsor-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Responsive for mobile phoner */
+
+@media only screen and (max-width: 500px){
+    .box {
+        background-color: green;
+    }
+
+}
+    
